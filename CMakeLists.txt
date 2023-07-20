@@ -62,4 +62,11 @@ zephyr_library_sources(
   lib/src/vidisp.c
   lib/src/vidsrc.c
   lib/src/vidutil.c
+
+  lib/modules/auconv/auconv.c
+  lib/modules/auresamp/auresamp.c
+  lib/modules/g711/g711.c
+  lib/modules/menu/menu.c
+  lib/modules/menu/dynamic_menu.c
+  lib/modules/menu/static_menu.c
 )
