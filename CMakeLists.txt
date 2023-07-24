@@ -12,8 +12,9 @@ zephyr_include_directories(
 )
 
 zephyr_library_compile_definitions(
-   -DSTATIC
+   -DSTATIC=Y
    -DSHARE_PATH="/tmp"
+   -DEXTCONFIG=Y
 )
 
 zephyr_library_sources(
@@ -69,4 +70,6 @@ zephyr_library_sources(
   lib/modules/menu/menu.c
   lib/modules/menu/dynamic_menu.c
   lib/modules/menu/static_menu.c
+
+  static.c
 )
