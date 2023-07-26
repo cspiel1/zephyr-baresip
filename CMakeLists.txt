@@ -15,6 +15,7 @@ zephyr_library_compile_definitions(
    -DSTATIC=Y
    -DSHARE_PATH="/tmp"
    -DEXTCONFIG=Y
+   -DNODNS=Y
 )
 
 zephyr_library_sources(
