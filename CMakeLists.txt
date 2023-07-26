@@ -71,6 +71,4 @@ zephyr_library_sources(
   lib/modules/menu/menu.c
   lib/modules/menu/dynamic_menu.c
   lib/modules/menu/static_menu.c
-
-  static.c
 )
