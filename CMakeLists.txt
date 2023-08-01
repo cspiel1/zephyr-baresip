@@ -71,4 +71,8 @@ zephyr_library_sources(
   lib/modules/menu/menu.c
   lib/modules/menu/dynamic_menu.c
   lib/modules/menu/static_menu.c
+  lib/modules/opus/opus.c
+  lib/modules/opus/decode.c
+  lib/modules/opus/encode.c
+  lib/modules/opus/sdp.c
 )
